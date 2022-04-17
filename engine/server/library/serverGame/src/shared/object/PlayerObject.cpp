@@ -8968,8 +8968,8 @@ void PlayerObjectNamespace::checkAndSetAccountAgeTitle(PlayerObject & player)
 	if (!c)
 		return;
 
-	if (c->isUsingAdminLogin())
-		return;
+	//if (c->isUsingAdminLogin())
+		//return;
 
 	unsigned int const ageInYears = c->getEntitlementEntitledTime() / 365u;
 
